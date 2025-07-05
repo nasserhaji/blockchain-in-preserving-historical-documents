@@ -49,3 +49,13 @@ contract DocumentStorage {
 در این کد، یک قرارداد هوشمند با نام DocumentStorage تعریف شده است که مجوز آن تنها برای صاحب قرارداد (owner) اعطا شده است. برای هر سند، یک ساختار داده‌ای به نام Document تعریف شده است که شامل شناسه (id)، عنوان (title)، محتوا (content) و زمان ایجاد (timestamp) سند است. این سند در یک نگاشت (mapping) به شناسه خود نگهداری می‌شود.
 
 با فراخوانی تابع addDocument توسط صاحب قرارداد، یک سند جدید با عنوان و محتوای داده شده به لیست اسناد اضافه می‌شود. همچنین، یک رویداد با اطلاعات شناسه، عنوان و زمان ایجاد سند، برای کاربران دیگر قابل مشاهده است.
+## 📜 License
+
+This project is licensed under a **Custom NonCommercial Attribution License**.
+
+- ✅ Free to use, modify, and share for **non-commercial** and **educational** purposes
+- ❌ **Commercial use, resale, or monetization** is strictly prohibited without prior written consent
+- 📛 Attribution required: Developed by Mohammad Nasser Haji Hashemabad (https://mohammadnasser.com)
+
+📬 For commercial licensing or inquiries: [info@mohammadnasser.com](mailto:info@mohammadnasser.com)
+
